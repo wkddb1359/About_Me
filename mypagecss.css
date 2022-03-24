@@ -1,0 +1,172 @@
+body {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+/* --- navbar --- */
+.navbar {
+	background-color: #DAB88B;
+	height: 60px;
+}
+.navbar:hover {
+	opacity: 0.7;
+}
+.navbar p {
+	font-size: 25px;
+	font-family: 'Nunito Sans';
+	font-weight: bold;
+	color: white;
+	display: inline;
+	margin-left: 200px;
+	line-height: 50px;
+}
+.navbar ul {
+	float: right;
+}
+.navbar li {
+	float: left;
+	list-style-type: none;
+	margin-top: 2px;
+}
+.navbar a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-right: 50px;
+	font-family: 'Nunito Sans';
+}
+.navbar a:hover {
+	color: black;
+}
+/* --- about me --- */
+.main_contents {
+	background-color: #F3E9DD;
+	text-align: center;
+}
+#main_title {
+	font-family: 'Nunito Sans';
+	color: gray;
+	font-weight: bold;
+	font-size: 40px;
+	margin-right: 700px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.main_text {
+	display: inline-block;
+}
+.main_introduce_container {
+	width: 1000px;
+	height: 500px;
+	text-align: left;
+}
+.main_introduce {
+	font-size: 25px;
+	margin-left: 500px;
+	margin-top: 40px;
+	font-family: 'Poor Story';
+	color: #494840;
+}
+.main_contents img {
+	float: left;
+	box-shadow: 3px 3px 3px #000;
+}
+/* --- what i want to be --- */
+.second_contents {
+	height: 700px;
+	background-color: #FDF6EC;
+	text-align: center;
+}
+.second_contents p{
+	margin-right: 520px;
+	margin-top: 0;
+	font-family: 'Nunito Sans';
+	color: gray;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 15px;
+}
+.values {
+	float: left;
+	padding-bottom: 15px;
+	padding-right: 80px;
+	padding-top: 20px;
+	position: absolute;
+	transform: translate(-50%);
+}
+#values_one{
+	left: 20%;
+}
+#values_two {
+	left: 50%;
+}
+#values_three {
+	left: 80%;
+}
+.values img {
+	border-radius: 60%;
+}
+.values img:hover {
+	transform: scale(1.3);
+ 	transition: transform 1s;
+ 	filter: brightness(90%);
+}
+.second_contents_text{
+	margin-top: 10px;
+	font-family: 'Shadows Into Light';
+	font-size: 40px;
+	font-weight: bold;
+}
+/* --- contact --- */
+.contact {
+	text-align: center;
+	background-color: #B7CADB;
+	height: 350px;
+}
+.contact p {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 35px;
+	padding-top: 100px;
+	font-family: 'Oswald';
+	color: gray;
+}
+.contact_img {
+	border-radius: 70%;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.contact_img:hover {
+	transform: scale(1.3);
+ 	transition: transform 1s;
+ 	filter: brightness(80%);
+}
+/* --- footer --- */
+.bottom {
+	background-color: #DAB88B;
+	text-align: center;
+	height: 40px;
+}
+.bottom_text {
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 500px;
+	margin-bottom: 0;
+}
+footer p {
+	display: inline;
+	margin-right: 300px;
+	margin-top: 0;
+	font-family: 'Nunito Sans';
+}
+footer a {
+	text-decoration: none;
+	display: block;
+	font-family: 'Nunito Sans';
+}
+footer a:hover {
+	color: black;
+}
